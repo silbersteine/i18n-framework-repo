@@ -31,6 +31,9 @@ function App() {
         >
           {t('learnReact')}
         </a>
+        <p>
+          {t('interpolation', {what: 'i18next'})}
+        </p>
       </header>
     </div>
   );

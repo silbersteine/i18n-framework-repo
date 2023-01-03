@@ -1,4 +1,5 @@
 {
     "learnReact": "Learn React",
-    "description": "Edit <1>src/App.js</1> and save to reload."
+    "description": "Edit <1>src/App.js</1> and save to reload.",
+    "interpolation": "{{what}} is great"
 }
