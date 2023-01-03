@@ -1,5 +1,8 @@
 {
     "learnReact": "Lerne React",
     "description": "Editiere <1>src/App.js</1> und speichere um neu zu laden.",
-    "interpolation": "{{what}} ist genial"
+    "interpolation": "{{what}} ist genial",
+    "pluralization_one": "Kuchen",
+    "pluralization_other": "Kuchen"
+
 }

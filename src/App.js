@@ -34,6 +34,11 @@ function App() {
         <p>
           {t('interpolation', {what: 'i18next'})}
         </p>
+        <p>
+          {t('pluralization', {count: 1})}
+          {/*change count number from one to other positive number to see change in key value*/}
+          {/*German does not have plural forms like English. Singular and plural will appear the same in this scenario*/}
+        </p>
       </header>
     </div>
   );
