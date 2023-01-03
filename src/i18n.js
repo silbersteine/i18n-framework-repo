@@ -14,6 +14,12 @@ i18next
                         learnReact: 'Learn React',
                         description: ' Edit <1>src/App.js</1> and save to reload.'
                     }
+                },
+                de: {
+                    translation: {
+                        learnReact: 'Lerne React',
+                        description: 'Editiere <1>src/App.js</1> und speichere um neu zu laden.'
+                    }
                 }
             }
         })
