@@ -65,6 +65,11 @@ function App() {
           }
           })}
         </p>
+        <p>
+          {/* Pass a different context (female or none) to see the other translations */}
+          {/* Context can be used with interpolation and plurals */}
+          {t('friend', { context: 'male' })}
+        </p>
       </header>
     </div>
   );

@@ -7,6 +7,9 @@
     "number": "Anzahl: {{val, number}}",
     "currency": "Währung: {{val, currency(USD)}}",
     "date": "Mein Geburtstag ist {{val, dateTime}}.",
-    "time": "Es ist {{val, dateTime}}."
+    "time": "Es ist {{val, dateTime}}.",
+    "friend": "Ein Freund",
+    "friend_male": "Ein Freund",
+    "friend_female": "Eine Freundin"
 
 }
