@@ -10,6 +10,9 @@
     "time": "Es ist {{val, dateTime}}.",
     "friend": "Ein Freund",
     "friend_male": "Ein Freund",
-    "friend_female": "Eine Freundin"
-
+    "friend_female": "Eine Freundin",
+    "inception": "Inception ist ein Film über $t(aDream) $t(withinADream, {\"count\": {{withinADream}} })",
+    "aDream": "ein Traum",
+    "withinADream_one": "innerhalb eines Traums",
+    "withinADream_other": "innerhalb von {{count}} Träumen"
 }

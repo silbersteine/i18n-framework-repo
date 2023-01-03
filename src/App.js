@@ -70,6 +70,9 @@ function App() {
           {/* Context can be used with interpolation and plurals */}
           {t('friend', { context: 'male' })}
         </p>
+        <p>
+          {t('inception', {withinADream: 1})}
+        </p>
       </header>
     </div>
   );
