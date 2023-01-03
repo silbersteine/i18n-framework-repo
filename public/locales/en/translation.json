@@ -3,5 +3,9 @@
     "description": "Edit <1>src/App.js</1> and save to reload.",
     "interpolation": "{{what}} is great",
     "pluralization_one": "cake",
-    "pluralization_other": "cakes"
+    "pluralization_other": "cakes",
+    "number": "Number: {{val, number}}",
+    "currency": "Currency: {{val, currency(USD)}}",
+    "date": "My birthday is on the {{val, dateTime}}.",
+    "time": "It is {{val, dateTime}}."
 }

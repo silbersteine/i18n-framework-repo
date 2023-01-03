@@ -3,6 +3,10 @@
     "description": "Editiere <1>src/App.js</1> und speichere um neu zu laden.",
     "interpolation": "{{what}} ist genial",
     "pluralization_one": "Kuchen",
-    "pluralization_other": "Kuchen"
+    "pluralization_other": "Kuchen",
+    "number": "Anzahl: {{val, number}}",
+    "currency": "Währung: {{val, currency(USD)}}",
+    "date": "Mein Geburtstag ist {{val, dateTime}}.",
+    "time": "Es ist {{val, dateTime}}."
 
 }

@@ -39,6 +39,32 @@ function App() {
           {/*change count number from one to other positive number to see change in key value*/}
           {/*German does not have plural forms like English. Singular and plural will appear the same in this scenario*/}
         </p>
+        <p>
+          {/* For information on all formatting options visit https://www.i18next.com/translation-function/formatting */}
+          {t('number', {val: 1000 })}
+        </p>
+        <p>
+          {t('currency', {val: 1000})}
+        </p>
+        <p>
+          {/* Info on date/time formatting https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat */}
+          {t('date', 
+            {val: new Date(Date.UTC(1992, 10, 13, 11, 0)),
+            formatParams: {
+              val: { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' },
+            }
+            })}
+        </p>
+        <p>
+          
+          {/* Note: German time would not be in 12 hr format. */}
+          {t('time',
+          {val: new Date(Date.UTC(1992, 10, 13, 4)),
+          formatParams: {
+            val: { hour: 'numeric', minute: 'numeric', timeZone: 'America/New_York', hour12: true}
+          }
+          })}
+        </p>
       </header>
     </div>
   );
