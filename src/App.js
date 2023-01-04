@@ -24,6 +24,16 @@ function App() {
             defaultMessage="Learn React"
           />
         </a>
+        <p>
+          <FormattedMessage
+            id="codeBy"
+            defaultMessage= "Coded by Eric"
+            values= {
+              {name: "Eric"}
+            }
+          />
+        </p>
+
       </header>
     </div>
   );

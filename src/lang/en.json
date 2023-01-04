@@ -1,4 +1,5 @@
 {
     "editAndSave": "",
-    "learnReact": "Learn React" 
+    "learnReact": "Learn React",
+    "codeBy": "Made by {name}"
 }
