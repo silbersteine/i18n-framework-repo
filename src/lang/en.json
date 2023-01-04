@@ -1,5 +1,5 @@
 {
-    "editAndSave": "",
+    "editAndSave": "Edit <code>{fileName}</code> and save to reload.",
     "learnReact": "Learn React",
     "codeBy": "Made by {name}"
 }

@@ -9,7 +9,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <FormattedMessage
+            id="editAndSave"
+            defaultMessage= "Edit <code>{fileName}</code> and save to reload."
+            values = {
+              // code value must match the html attribute in the text
+              {fileName: "src/app.js", code: (word) => <code>{word}</code>}
+            }
+          />
         </p>
         <a
           className="App-link"
