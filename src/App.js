@@ -1,5 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { FormattedMessage } from "react-intl";
 
 function App() {
   return (
@@ -15,7 +17,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <FormattedMessage
+            // Key name
+            id="learnReact"
+            // Fallback message
+            defaultMessage="Learn React"
+          />
         </a>
       </header>
     </div>

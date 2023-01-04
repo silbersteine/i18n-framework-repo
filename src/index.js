@@ -19,7 +19,7 @@ if (local === "en-US") {
 
 // Local injects formatting specific to local of user. Language specifies messages translation
 ReactDOM.render(
-    <IntlProvider locale={local} messages={lang}>
+    <IntlProvider locale={local} messages={Spanish}>
         <App />
     </IntlProvider>, 
     document.getElementById('root'));
