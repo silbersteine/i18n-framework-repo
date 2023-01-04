@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { IntlProvider } from 'react-intl';
+import Spanish from "./locales/es/translations.json";
+import English from "./locales/en/translations.json";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// get user's current local
+const local = navigator.language;
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+let lang;
+if (local === "en-US") {
+    lang = English;
+} else {
+    lang = Spanish;
+}
+
+// Local injects formatting specific to local of user. Language specifies messages translation
+ReactDOM.render(<IntlProvider locale={local} messages={lang}><App /></IntlProvider>, document.getElementById('root'));
