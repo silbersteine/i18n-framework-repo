@@ -18,8 +18,9 @@ if (local === "en-US") {
 }
 
 // Local injects formatting specific to local of user. Language specifies messages translation
+//Change local to es-MX to see formatting of date changed to Mexican Spanish.
 ReactDOM.render(
-    <IntlProvider locale={local} messages={Spanish}>
+    <IntlProvider locale={local} messages={English} date={Date.now()}>
         <App />
     </IntlProvider>, 
     document.getElementById('root'));

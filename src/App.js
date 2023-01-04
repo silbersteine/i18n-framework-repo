@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, FormattedDate } from "react-intl";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
@@ -38,6 +38,14 @@ function App() {
             values= {
               {name: "Eric"}
             }
+          />
+          <br />
+          <FormattedDate
+            value={props.date}
+            year="numeric"
+            month="long"
+            day="numeric"
+            weekday="long"
           />
         </p>
 
