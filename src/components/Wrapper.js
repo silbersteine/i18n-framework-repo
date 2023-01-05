@@ -3,7 +3,7 @@ import { IntlProvider } from "react-intl";
 import Spanish from "../lang/es.json";
 import English from "../lang/en.json";
 
-const Context = React.createContext();
+export const Context = React.createContext();
 
 // get user's current local
 const local = navigator.language;
