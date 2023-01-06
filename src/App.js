@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { FormattedMessage, FormattedDate, FormattedTime, FormattedNumber, Formatted } from "react-intl";
+import { FormattedMessage, FormattedDate, FormattedTime, FormattedNumber, FormattedPlural } from "react-intl";
 import { Context } from "./components/Wrapper"
 
 function App(props) {
@@ -73,14 +73,20 @@ function App(props) {
           />
         </p>
         <p>
-        <FormattedNumber
-          value={20000.42}
-          style="currency"
-          currencyDisplay="symbol"
-          currency="USD"
-        />
+          <FormattedNumber
+            value={20000.42}
+            style="currency"
+            currencyDisplay="symbol"
+            currency="USD"
+          />
         </p>
-
+        <p>
+          <FormattedPlural
+            value={3}
+            one="The little girl had one small scoop of ice cream"
+            other="The little girl had never eaten more ice cream in her whole entire life"
+          />
+          </p>
       </header>
     </div>
   );
