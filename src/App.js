@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { FormattedMessage, FormattedDate, FormattedTime } from "react-intl";
+import { FormattedMessage, FormattedDate, FormattedTime, FormattedNumber, Formatted } from "react-intl";
 import { Context } from "./components/Wrapper"
 
 function App(props) {
@@ -66,6 +66,19 @@ function App(props) {
             second="numeric"
             // timeZoneName="longOffset"
           />
+        </p>
+        <p>
+          <FormattedNumber
+            value={42000.42}
+          />
+        </p>
+        <p>
+        <FormattedNumber
+          value={20000.42}
+          style="currency"
+          currencyDisplay="symbol"
+          currency="USD"
+        />
         </p>
 
       </header>
