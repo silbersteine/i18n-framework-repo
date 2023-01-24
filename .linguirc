@@ -5,6 +5,5 @@
       "path": "src/locales/{locale}/messages",
       "include": ["src"]
    }],
-// format "minimal" uses simple JSON with message ID -> translation mapping. All metadata (default message, comments for translators, message origin, etc) are stripped:
    "format": "minimal"
 }
