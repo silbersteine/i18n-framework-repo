@@ -5,10 +5,14 @@ import App from './App';
 
 import { i18n } from '@lingui/core'
 import { I18nProvider } from '@lingui/react'
-import { messages } from './locales/en/messages'
+import { messages as enMessages } from './locales/en/messages'
+import { messages as esMessages } from './locales/es/messages'
 
-i18n.load('en', messages)
-i18n.activate('en')
+i18n.load({
+  en: enMessages,
+  es: esMessages,
+})
+i18n.activate('es')
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
