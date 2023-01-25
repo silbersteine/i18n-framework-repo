@@ -1,4 +1,6 @@
 {
   "<0>Learn React</0>": "<0>Learn React</0>",
-  "Edit <0>src/App.js</0> and save to reload.": "Edit <0>src/App.js</0> and save to reload."
+  "Edit <0>src/App.js</0> and save to reload.": "Edit <0>src/App.js</0> and save to reload.",
+  "custom.id": "I've manually defined this string's message ID",
+  "{monkeysCount, plural, one {There is one monkey jumping on the bed} other {There are # monkeys jumping on the bed}}": "{monkeysCount, plural, one {There is one monkey jumping on the bed} other {There are # monkeys jumping on the bed}}"
 }
