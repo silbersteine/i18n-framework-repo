@@ -5,5 +5,6 @@
   "Hello {world}": "Hello {world}",
   "What about line breaks and other elements?<0/>Good questions!": "What about line breaks and other elements?<0/>Good questions!",
   "custom.id": "I've manually defined this string's message ID",
+  "night.sky": "{stars, plural, =0 {I didn't see a single star} =1 {I saw one bright star} other {The night sky was full of stars!}}",
   "{monkeysCount, plural, one {There is one monkey jumping on the bed} other {There are # monkeys jumping on the bed}}": "{monkeysCount, plural, one {There is one monkey jumping on the bed} other {There are # monkeys jumping on the bed}}"
 }

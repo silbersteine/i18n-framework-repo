@@ -5,5 +5,6 @@
   "Hello {world}": "Hola {world}",
   "What about line breaks and other elements?<0/>Good questions!": "¿Comó maneja saltos de línea u otros elementos? </0> ¡Buena pregunta!",
   "custom.id": "He definido el ID de mensaje de este texto",
+  "night.sky": "{stars, plural, =0 {No vi ninguna estrella} =1 {Vi una estrella brillante} other {El cielo estaba lleno de estrellas}}",
   "{monkeysCount, plural, one {There is one monkey jumping on the bed} other {There are # monkeys jumping on the bed}}": "{monkeysCount, plural, one {Hay un mono que está brincando en la cama} other {Hay # monos que están brincando en la cama}}"
 }

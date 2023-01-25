@@ -9,6 +9,7 @@ function App() {
   const world = "World";
   var user = {};
   user.name = "Eric";
+  const stars = 2;
 
   return (
     <div className="App">
@@ -42,6 +43,16 @@ function App() {
                 value={monkeysCount}
                 one="There is one monkey jumping on the bed"
                 other="There are # monkeys jumping on the bed"
+            />
+          </p>
+{/* Exact Form Plurals */}
+          <p>
+            <Plural
+            id="night.sky"
+            value={stars}
+            _0="I didn't see a single star"
+            _1="I saw one bright star"
+            other="The night sky was full of stars!"
             />
           </p>
         </div>
