@@ -6,6 +6,9 @@ import { Trans, Plural } from '@lingui/macro';
 
 function App() {
   const monkeysCount = 0;
+  const world = "World";
+  var user = {};
+  user.name = "Eric";
 
   return (
     <div className="App">
@@ -40,6 +43,18 @@ function App() {
                 one="There is one monkey jumping on the bed"
                 other="There are # monkeys jumping on the bed"
             />
+          </p>
+        </div>
+{/* JSX to MessageFormat examples */}
+        <div>
+          <p>
+            <Trans>Hello {world}</Trans>
+          </p>
+          <p>
+            <Trans>Hello {user.name}</Trans>
+          </p>
+          <p>
+            <Trans>What about line breaks and other elements?<br />Good questions!</Trans>
           </p>
         </div>
       </header>
