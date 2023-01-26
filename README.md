@@ -4,9 +4,12 @@ Using the web app [Create React App](https://github.com/facebook/create-react-ap
 
 ## Libraries
 
-![React-i18next](https://4042378089-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-L9iS6WpW81N7RGRTQ-K%2Favatar.png?generation=1523345851027218&alt=media)
-![FormatJS](https://images.ctfassets.net/tb3nth97hxik/LwAhyJAtjaA5H7pRnfJip/f12e891afdc4c2e5d23dc41649841291/automateformatjstwittercard.jpg?w=800&h=800&q=95&fit=fill)
-![LinguiJS](https://lingui.dev/img/lingui-logo.svg)
+<!-- ![React-i18next](https://4042378089-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-L9iS6WpW81N7RGRTQ-K%2Favatar.png?generation=1523345851027218&alt=media) -->
+<img src="https://4042378089-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-L9iS6WpW81N7RGRTQ-K%2Favatar.png?generation=1523345851027218&alt=media" width="100">
+<!-- ![FormatJS](https://images.ctfassets.net/tb3nth97hxik/LwAhyJAtjaA5H7pRnfJip/f12e891afdc4c2e5d23dc41649841291/automateformatjstwittercard.jpg?w=800&h=800&q=95&fit=fill) -->
+<img src="https://images.ctfassets.net/tb3nth97hxik/LwAhyJAtjaA5H7pRnfJip/f12e891afdc4c2e5d23dc41649841291/automateformatjstwittercard.jpg?w=800&h=800&q=95&fit=fill" width="100">
+<!-- ![LinguiJS](https://lingui.dev/img/lingui-logo.svg) -->
+<img src="https://lingui.dev/img/lingui-logo.svg" width="100">
 - [React-i18next](https://react.i18next.com/)
 - [FormatJS](https://formatjs.io/docs/react-intl/)
 - [LinguiJS](https://lingui.dev/tutorials/react)
