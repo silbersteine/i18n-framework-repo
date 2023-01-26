@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { Trans, Plural } from '@lingui/macro';
+import { Trans, Plural, t } from '@lingui/macro';
+import { useLingui } from '@lingui/react';
 
 
 
 function App() {
+  const { i18n } = useLingui()
+  const d = new Date("2023-01-25T18:00:00")
   const monkeysCount = 0;
   const world = "World";
   var user = {};
@@ -14,7 +17,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+{/* Use { t } macro to translate alt element attribute*/}
+        <img src={logo} className="App-logo" alt={t`React logo`} />
         <p>
           <Trans>
             Edit <code>src/App.js</code> and save to reload.
@@ -68,6 +72,22 @@ function App() {
             <Trans>What about line breaks and other elements?<br />Good questions!</Trans>
           </p>
         </div>
+{/* Formatting Numbers, Currency and Dates */}
+          <p>
+            <Trans id="date.formatted">
+              The exact moment I committed this code to my repo: {i18n.date(d, { dateStyle: "full", timeStyle: "full"})}.
+            </Trans>
+          </p>
+          <p>
+            <Trans id="number.formatted">
+                The amount of M&Ms I can fit in my mouth: {i18n.number(123456789, { style: "decimal"})} M&Ms.
+            </Trans>
+          </p>
+          <p>
+            <Trans id="currency.formatted">
+              I remember when a date to the movies for two cost only {i18n.number(20.00, { currencyDisplay: "narrowSymbol", style: "currency", currency: "USD"})}.
+            </Trans>
+          </p>
       </header>
     </div>
   );

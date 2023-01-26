@@ -3,8 +3,12 @@
   "Edit <0>src/App.js</0> and save to reload.": "Edit <0>src/App.js</0> and save to reload.",
   "Hello {0}": "Hello {0}",
   "Hello {world}": "Hello {world}",
+  "React logo": "React logo",
   "What about line breaks and other elements?<0/>Good questions!": "What about line breaks and other elements?<0/>Good questions!",
+  "currency.formatted": "I remember when a date to the movies for two cost only {0}.",
   "custom.id": "I've manually defined this string's message ID",
+  "date.formatted": "The exact moment I committed this code to my repo: {0}.",
   "night.sky": "{stars, plural, =0 {I didn't see a single star} =1 {I saw one bright star} other {The night sky was full of stars!}}",
+  "number.formatted": "The amount of M&Ms I can fit in my mouth: {0} M&Ms.",
   "{monkeysCount, plural, one {There is one monkey jumping on the bed} other {There are # monkeys jumping on the bed}}": "{monkeysCount, plural, one {There is one monkey jumping on the bed} other {There are # monkeys jumping on the bed}}"
 }

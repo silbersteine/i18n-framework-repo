@@ -19,7 +19,7 @@ i18n.load({
   en: enMessages,
   es: esMessages,
 })
-i18n.activate('en')
+i18n.activate('es')
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
