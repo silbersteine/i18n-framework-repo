@@ -27,6 +27,23 @@ function App(props) {
             }
           />
         </p>
+        <p>
+        <FormattedMessage
+          id="dateComponent.text"
+          defaultMessage="The date is: {formattedDate}"
+          values={{
+            formattedDate: (
+              <FormattedDate
+                value={new Date()}
+                year="numeric"
+                month="long"
+                day="numeric"
+                weekday="long"
+              />
+            ),
+          }}
+        />
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"

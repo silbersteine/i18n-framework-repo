@@ -1,5 +1,6 @@
 {
     "editAndSave": "Edit <code>{fileName}</code> and save to reload.",
     "learnReact": "Learn React",
-    "codeBy": "Made by {name}"
+    "codeBy": "Made by {name}",
+    "dateComponent": "The date is: {formattedDate}"
 }
